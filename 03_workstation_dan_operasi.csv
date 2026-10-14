@@ -1,0 +1,5 @@
+workstation_name,operation_name,hour_rate,description
+WS-Pemotongan & Serut,Pemotongan dan Penyerutan Kayu,45000,Stasiun kerja mesin potong kayu circular saw dan mesin serut otomatis
+WS-Finishing & Vernis,Finishing dan Pelapisan Vernis,50000,Stasiun ruang spray gun dan oven pengeringan vernis anti debu
+WS-Perakitan Akhir,Perakitan Rangka dan QC,40000,Meja perakitan manual rangka besi ke daun meja dengan obeng torsi
+WS-Pengemasan,Pengemasan Dus dan Pengiriman,30000,Stasiun pembungkusan bubble wrap kardus dan strapping band

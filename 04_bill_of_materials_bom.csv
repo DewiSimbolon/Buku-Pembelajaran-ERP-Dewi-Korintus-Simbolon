@@ -1,0 +1,6 @@
+bom_item,item_name,component_item_code,component_item_name,quantity,uom,rate,operation_name,workstation_name
+FG-MEJA-01,Meja Belajar Minimalis Dewi,RAW-PAPAN-01,Papan Kayu Mahoni 120x60x2 cm,1,Nos,150000,Pemotongan dan Penyerutan Kayu,WS-Pemotongan & Serut
+FG-MEJA-01,Meja Belajar Minimalis Dewi,RAW-BESI-01,Kaki Meja Besi Hollow 75 cm,4,Nos,35000,Perakitan Rangka dan QC,WS-Perakitan Akhir
+FG-MEJA-01,Meja Belajar Minimalis Dewi,RAW-BAUT-01,Baut & Sekrup Rakit M6x30,16,Nos,1000,Perakitan Rangka dan QC,WS-Perakitan Akhir
+FG-MEJA-01,Meja Belajar Minimalis Dewi,RAW-VERNIS-01,Cat Vernis Kayu Natural 1L,0.25,Nos,80000,Finishing dan Pelapisan Vernis,WS-Finishing & Vernis
+FG-MEJA-01,Meja Belajar Minimalis Dewi,RAW-AMPLAS-01,Kertas Amplas Grid 240,1,Nos,5000,Pemotongan dan Penyerutan Kayu,WS-Pemotongan & Serut

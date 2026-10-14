@@ -1,0 +1,9 @@
+item_code,item_name,item_group,stock_uom,is_stock_item,is_purchase_item,is_sales_item,standard_rate,description
+RAW-PAPAN-01,Papan Kayu Mahoni 120x60x2 cm,Raw Material,Nos,1,1,0,150000,Bahan baku utama untuk daun meja belajar
+RAW-BESI-01,Kaki Meja Besi Hollow 75 cm,Raw Material,Nos,1,1,0,35000,Kaki meja pipa besi kotak hollow finish powder coating hitam
+RAW-BAUT-01,Baut & Sekrup Rakit M6x30,Raw Material,Nos,1,1,0,1000,Sekrup perakitan kayu ke rangka besi kaki meja
+RAW-VERNIS-01,Cat Vernis Kayu Natural 1L,Raw Material,Nos,1,1,0,80000,Pelapis anti gores dan kilap permukaan kayu mahoni
+RAW-AMPLAS-01,Kertas Amplas Grid 240,Raw Material,Nos,1,1,0,5000,Kertas amplas penghalus kayu sebelum dicat
+WIP-DAUN-01,Daun Meja Kayu Halus (Siap Rakit),Sub Assemblies,Nos,1,0,0,180000,Kayu mahoni yang telah dipotong diserut dan diamplas halus
+FG-MEJA-01,Meja Belajar Minimalis Dewi,Products,Nos,1,0,1,550000,Meja belajar minimalis modern 120x60x75 cm warna natural kayu
+FG-MEJA-02,Meja Kerja Kantor Seri Eksekutif,Products,Nos,1,0,1,850000,Meja kantor kayu premium kokoh dengan laci perlengkapan

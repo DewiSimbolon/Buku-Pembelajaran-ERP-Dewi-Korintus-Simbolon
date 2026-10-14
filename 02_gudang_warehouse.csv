@@ -1,0 +1,5 @@
+warehouse_name,parent_warehouse,is_group,description
+Gudang Bahan Baku - PTD,All Warehouses,0,Gudang penyimpanan material mentah (papan kayu, besi, sekrup, cat vernis)
+Gudang WIP - PTD,All Warehouses,0,Gudang area produksi untuk barang setengah jadi dalam proses manufaktur
+Gudang Barang Jadi - PTD,All Warehouses,0,Gudang penyimpanan meja belajar yang sudah lolos QC dan siap kirim
+Gudang Karantina & Rusak - PTD,All Warehouses,0,Gudang penampung material reject atau afkir produksi

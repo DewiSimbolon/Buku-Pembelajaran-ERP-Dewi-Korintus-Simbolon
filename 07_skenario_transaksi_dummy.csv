@@ -1,0 +1,15 @@
+tahap,jenis_transaksi,referensi,mitra_terkait,item_code,item_name,qty,satuan,gudang,catatan
+1. Pengadaan,Purchase Order,PO-2026-001,CV Kayu Rimba Nusantara,RAW-PAPAN-01,Papan Kayu Mahoni 120x60x2 cm,20,Nos,Gudang Bahan Baku - PTD,Beli bahan baku kayu tahap 1
+1. Pengadaan,Purchase Order,PO-2026-002,PT Logam Presisi Steel,RAW-BESI-01,Kaki Meja Besi Hollow 75 cm,80,Nos,Gudang Bahan Baku - PTD,Beli kaki besi 80 pcs untuk 20 meja
+1. Pengadaan,Purchase Order,PO-2026-002,PT Logam Presisi Steel,RAW-BAUT-01,Baut & Sekrup Rakit M6x30,350,Nos,Gudang Bahan Baku - PTD,Beli baut perakitan
+1. Pengadaan,Purchase Order,PO-2026-003,Toko Cat Warna Abadi,RAW-VERNIS-01,Cat Vernis Kayu Natural 1L,10,Nos,Gudang Bahan Baku - PTD,Beli cat vernis pelindung kayu
+1. Pengadaan,Purchase Order,PO-2026-003,Toko Cat Warna Abadi,RAW-AMPLAS-01,Kertas Amplas Grid 240,20,Nos,Gudang Bahan Baku - PTD,Beli kertas amplas
+2. Penerimaan,Purchase Receipt,PR-2026-001,CV Kayu Rimba Nusantara,RAW-PAPAN-01,Papan Kayu Mahoni 120x60x2 cm,20,Nos,Gudang Bahan Baku - PTD,Material tiba dan masuk stok gudang
+2. Penerimaan,Purchase Receipt,PR-2026-002,PT Logam Presisi Steel,RAW-BESI-01,Kaki Meja Besi Hollow 75 cm,80,Nos,Gudang Bahan Baku - PTD,Material tiba dan masuk stok gudang
+2. Penerimaan,Purchase Receipt,PR-2026-003,Toko Cat Warna Abadi,RAW-VERNIS-01,Cat Vernis Kayu Natural 1L,10,Nos,Gudang Bahan Baku - PTD,Material tiba dan masuk stok gudang
+3. Produksi,Work Order,MFG-WO-2026-001,Internal Pabrik,FG-MEJA-01,Meja Belajar Minimalis Dewi,10,Nos,Gudang WIP - PTD,Perintah produksi 10 unit meja
+3. Produksi,Stock Entry (Transfer for Mfg),STE-TR-001,Internal Pabrik,Material BOM (Kayu Besi Baut Vernis),Komponen 10 unit meja,10,Lot,Gudang Bahan Baku -> Gudang WIP,Transfer material dari gudang ke lantai produksi
+3. Produksi,Stock Entry (Manufacture),STE-MFG-001,Internal Pabrik,FG-MEJA-01,Meja Belajar Minimalis Dewi,10,Nos,Gudang WIP -> Gudang Barang Jadi,Produksi selesai Meja masuk gudang barang jadi
+4. Penjualan,Sales Order,SO-2026-001,Toko Mebel Sumber Rejeki,FG-MEJA-01,Meja Belajar Minimalis Dewi,5,Nos,Gudang Barang Jadi - PTD,Pesanan 5 unit meja belajar
+5. Pengiriman,Delivery Note,DN-2026-001,Toko Mebel Sumber Rejeki,FG-MEJA-01,Meja Belajar Minimalis Dewi,5,Nos,Gudang Barang Jadi - PTD,Pengiriman barang ke toko mebel
+6. Penagihan,Sales Invoice,SINV-2026-001,Toko Mebel Sumber Rejeki,FG-MEJA-01,Meja Belajar Minimalis Dewi,5,Nos,Akun Piutang Usaha,Penagihan faktur penjualan Rp 2.750.000
